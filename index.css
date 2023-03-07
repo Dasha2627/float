@@ -1,0 +1,88 @@
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+
+}
+
+
+.block_1 {
+    width: 400px;
+    height: 400px;
+    outline: 3px solid gold;
+    float: left;
+}
+
+.block_2 {
+    width: 400px;
+    height: 400px;
+    outline: 3px solid gold;
+    float: left;
+}
+
+.block_3 {
+    width: 800px;
+    height: 200px;
+    outline: 3px solid gold;
+    float: left;
+}
+
+.block_4 {
+    width: 400px;
+    height: 200px;
+    outline: 3px solid gold;
+    float: left;
+}
+
+.block_5 {
+    width: 400px;
+    height: 100px;
+    outline: 3px solid gold;
+    float: left;
+}
+
+.block_6 {
+    width: 400px;
+    height: 100px;
+    outline: 3px solid gold;
+    float: left;
+}
+
+.box_1 {
+    background-color: wheat;
+}
+
+.box_2 {
+    background-color: rebeccapurple;
+}
+
+.box_2>div {
+    width: 800px;
+    float: left;
+    outline: 3px solid gold;
+}
+
+.box_2>div+div {
+    width: 400px;
+}
+
+.box_3 {
+    background-color: hotpink;
+}
+
+.height-133 {
+    height: 133.3px;
+    outline: 3px solid gold;
+}
+
+.height-200 {
+    height: 200px;
+    outline: 3px solid gold;
+}
